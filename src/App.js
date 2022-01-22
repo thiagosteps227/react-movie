@@ -1,9 +1,15 @@
 import React from 'react';
+
+//styles
 import { GlobalStyle } from './GlobalStyle';
+//components
+import Header from './components/Header';
+import Home from './components/Home';
 
 const App = () => (
-  <div>
-    Start here!
+  <div className='App'>
+    <Header />
+    <Home />
     <GlobalStyle />
   </div>
 );
